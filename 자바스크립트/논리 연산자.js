@@ -74,4 +74,10 @@ alert( alert(1) || 2 || alert(3) ); // 1의 창이뜨고 2까지 진행되고 3�
 // AND 연산자의 피연산자가 alert인 경우
 alert( alert(1) && alert(2) ); // 1이 얼릿창에 출력되고 평가 결과가 멈춘다. alert의 평가 괄과는 undefined 로 falsy이기 때문이다.
 
+// nullish 병합 연산자 '??'
+// a ?? b == ( a !== null && a !== undefined ) ? a : b;
+// a가 null도 아니고 undefined도 아니면 a, 그 외의 경우는 b
+// '??' 와 '||'의 차이
+// ||는 첫 번째 truthy 값을 반환, ??는 첫 번째 정의된(defined) 값을 반환
+// ??의 연산자 우선순위는 ?와 =을 제외한 대부분의 연산자보다 나중에 평가 된다.
 
