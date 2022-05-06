@@ -61,6 +61,3 @@ script 태그는 src 속성과 내부 코드를 동시에 가지지 못합니다
   alert(1);
 </script>
 ```
-
-## 참조
-Link: [https://ko.javascript.info/hello-world]
