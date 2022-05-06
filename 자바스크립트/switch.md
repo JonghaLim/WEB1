@@ -87,7 +87,7 @@ switch (arg) {
   case '1':
     alert( '0이나 1을 입력하셨습니다.' );
     break;
-
+ 
   case '2':
     alert( '2를 입력하셨습니다.' );
     break;
