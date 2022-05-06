@@ -272,3 +272,6 @@ checkPermission(..) // 승인 여부를 확인하고 true나 false를 반환함
 - getAge 함수는 나이를 얻어오는 동작만 수행해야 한다. alert창에 나이를 출력해주는 동작은 이 함수에 들어가지 않는 것이 좋다.
 - createForm 함수는 form를 만들고 이를 반환하는 동작만 해야 한다. form을 문서에 추가하는 동작이 해당 함수에 들어가 있으면 좋지 않다.
 - cheakPermission 함수는 승인 여부를  확인하고 그 결과를 반환하는 동작만 해야 한다. 승인 여부를 보여주는 메세지를 띄우는 동작이 들어가 있으면 좋지 않다.
+
+# 참조
+Link: [https://ko.javascript.info/function-basics]
